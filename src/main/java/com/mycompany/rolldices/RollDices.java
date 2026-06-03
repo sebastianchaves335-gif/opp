@@ -20,13 +20,14 @@ public class RollDices {
     public static void main(String[] args) {
         Scanner data = new Scanner(System.in);
         
-        int Lives=5, dice1, dice2; 
+        int Lives=5, dice1, dice2; totalPares=0, totalImpares=0; totalIguales=0; int consecutivosIguales=0; int contadorLanzamientos=0;
+        /*
         int totalPares=0;
         int totalImpares=0;
         int totalIguales=0;
         int consecutivosIguales=0;
         int contadorLanzamientos=0;
-        
+        */
         String player_name, key;
         
         System.out.println("::: WELCOME TO ROLL DICES :::");
