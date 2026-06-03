@@ -110,7 +110,7 @@ public class ArrayData {
                             break;
                         }
                     }
-                    if (!foud){
+                    if (!found){
                         System.out.println("user not foud with ID: " + searchId);
                     }
                     System.out.println("\nPress ENTER to go back to main menu.");
